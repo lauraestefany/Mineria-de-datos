@@ -1,4 +1,4 @@
-# Mineria-de-datos
+# Minería-de-datos
 Grupo 003 Equipo 5
 
 ## Individual
