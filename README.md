@@ -5,11 +5,16 @@ Grupo 003 Equipo 5
 [Mapa Mental 1](https://github.com/lauraestefany/Mineria-de-datos/blob/master/MapaMental_1_1588292.pdf)
 
 ## Equipo
-### Integrantes:
+#### Integrantes:
+
 Isidro Garza Villarreal
+
 Mauricio Enrique Espinosa Martínez
+
 Eliezer Gamaliel Castillo Alcantar
+
 José Luis Buendía Meza
+
 Laura Estefany Rodriguez de los Reyes
 
 
