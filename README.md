@@ -30,7 +30,7 @@ Laura Estefany Rodriguez de los Reyes
 [Ejercicio 1](https://github.com/lauraestefany/Mineria-de-datos/blob/master/Ejercicios1_5_003.ipynb)
 
 ## Fase 2
-[Ejercicios base de datos]
+[Ejercicios base de datos](https://github.com/lauraestefany/Mineria-de-datos/blob/master/AnalisisBD_1588292.pdf)
 
 [Ejercicios prácticos de Python](https://github.com/lauraestefany/Mineria-de-datos/blob/master/PythonBasico_1588292)
 
