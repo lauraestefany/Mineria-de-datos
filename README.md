@@ -6,6 +6,8 @@ Grupo 003 Equipo 5
 
 [Mapa Mental 2](https://github.com/lauraestefany/Mineria-de-datos/blob/master/MapaMental_2_1588292.pdf)
 
+[Resumen Técnicas de Minería de Datos](https://github.com/lauraestefany/Mineria-de-datos/blob/master/Resumen_TecnicasMineria_1588292.pdf)
+
 
 ## Equipo
 #### Integrantes:
