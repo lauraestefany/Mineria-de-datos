@@ -34,7 +34,7 @@ Laura Estefany Rodriguez de los Reyes
 
 [Ejercicios prácticos de Python](https://github.com/lauraestefany/Mineria-de-datos/blob/master/PythonBasico_1588292)
 
-[Avance I Proyecto Integrador]
+[Avance I Proyecto Integrador](https://github.com/lauraestefany/Mineria-de-datos/blob/master/Avance1-PIA_13_003.pdf)
 
 [Limpieza de datos]
 
