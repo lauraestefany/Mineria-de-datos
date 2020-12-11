@@ -28,3 +28,19 @@ Laura Estefany Rodriguez de los Reyes
 [Presentación técnicas de Minería - Predicción](https://github.com/lauraestefany/Mineria-de-datos/blob/master/Presentaci%C3%B3n_Predicci%C3%B3n_5.pdf)
 
 [Ejercicio 1](https://github.com/lauraestefany/Mineria-de-datos/blob/master/Ejercicios1_5_003.ipynb)
+
+## Fase 2
+[Ejercicios base de datos]
+
+[Ejercicios prácticos de Python]
+
+[Avance I Proyecto Integrador]
+
+[Limpieza de datos]
+
+[Visualización]
+
+## Fase 3
+[Avance II Proyecto Integrador]
+
+[Póster Final]
