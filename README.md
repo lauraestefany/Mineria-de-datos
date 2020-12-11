@@ -1,7 +1,9 @@
 # Minería de datos
 Grupo 003 Equipo 5
 
-## Individual
+## Fase 1
+
+### Individual
 [Mapa Mental 1](https://github.com/lauraestefany/Mineria-de-datos/blob/master/MapaMental_1_1588292.pdf)
 
 [Mapa Mental 2](https://github.com/lauraestefany/Mineria-de-datos/blob/master/MapaMental_2_1588292.pdf)
@@ -9,7 +11,7 @@ Grupo 003 Equipo 5
 [Resumen Técnicas de Minería de Datos](https://github.com/lauraestefany/Mineria-de-datos/blob/master/Resumen_TecnicasMineria_1588292.pdf)
 
 
-## Equipo
+### Equipo
 #### Integrantes:
 
 Isidro Garza Villarreal
