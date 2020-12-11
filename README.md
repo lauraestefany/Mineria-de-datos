@@ -32,7 +32,7 @@ Laura Estefany Rodriguez de los Reyes
 ## Fase 2
 [Ejercicios base de datos]
 
-[Ejercicios prácticos de Python]
+[Ejercicios prácticos de Python](https://github.com/lauraestefany/Mineria-de-datos/blob/master/PythonBasico_1588292)
 
 [Avance I Proyecto Integrador]
 
