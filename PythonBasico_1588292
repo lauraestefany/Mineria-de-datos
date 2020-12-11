@@ -1,0 +1,1144 @@
+{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "Laura Estefany Rodríguez de los Reyes"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "Ejercicio 1:"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "Realiza una variable con tu matricula y realiza una secuencia de imprimir con tu nombre y tu matricula concatenados."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 2,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Laura Estefany Rodríguez de los Reyes 1588292\n"
+     ]
+    }
+   ],
+   "source": [
+    "mat=1588292\n",
+    "nom=\"Laura Estefany Rodríguez de los Reyes \"\n",
+    "print(nom + str(mat))"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "Ejercicio 2:"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "Pidiendo el input del usuario pide dos números y crea una pequeña calculadora con los operadores básicos de suma, resta, multiplicación, división, y exponente."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 39,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Introduzca un número: 7\n",
+      "Introduzca otro número: 5\n",
+      "Suma:  12\n",
+      "Resta:  2\n",
+      "Multiplicación:  35\n",
+      "División:  1.4\n",
+      "Exponente:  16807\n"
+     ]
+    }
+   ],
+   "source": [
+    "a=int(input(\"Introduzca un número: \"))\n",
+    "b=int(input(\"Introduzca otro número: \"))\n",
+    "\n",
+    "print(\"Suma: \",a+b)\n",
+    "print(\"Resta: \",a-b)\n",
+    "print(\"Multiplicación: \",a*b)\n",
+    "print(\"División: \",a/b)\n",
+    "print(\"Exponente: \",a**b)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "Ejercicio 3:"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "Con loop while o for, realiza una lista de 10 numeros multiplos de 3, y después realiza una función de loop que sume todos los números dentro del arreglo."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 40,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "[3, 6, 9, 12, 15, 18, 21, 24, 27, 30]"
+      ]
+     },
+     "execution_count": 40,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "lista=[i*3 for i in range(1,11)]\n",
+    "lista"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 41,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "165"
+      ]
+     },
+     "execution_count": 41,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "def sumar(lista):\n",
+    "    suma=0\n",
+    "    for i in range(len(lista)):\n",
+    "        suma=suma+lista[i]\n",
+    "    return suma\n",
+    "sumar(lista)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "Ejercicio 4"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "Con una función de if else, revisar si un número es par o es impar."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "Con una función de if else, revisar si un número es primo o no."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 42,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Introduzca un número: 4\n",
+      "El número es par\n"
+     ]
+    }
+   ],
+   "source": [
+    "a = int(input(\"Introduzca un número: \"))\n",
+    "\n",
+    "if a%2==0:\n",
+    "    print(\"El número es par\")\n",
+    "else:\n",
+    "    print(\"El número es impar\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 43,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Introduzca un número: 8\n",
+      "No es número primo\n"
+     ]
+    }
+   ],
+   "source": [
+    "a = int(input(\"Introduzca un número: \"))\n",
+    "\n",
+    "raiz=int(a**.5)\n",
+    "primo=True\n",
+    "for i in range(2,raiz+1):\n",
+    "    if a%i==0:\n",
+    "        print(\"No es número primo\")\n",
+    "        primo=False\n",
+    "        break\n",
+    "if primo==True:\n",
+    "    print(\"Es número primo\")"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "Ejercicio 5"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "Utilizando diferentes clases en python, crea una calculadora con los operadores básicos de suma, resta, multiplicación, división, y exponente."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 44,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "{'Suma': 3, 'Resta': 1, 'Multiplicación': 2, 'División': 2.0, 'Exponente': 2}"
+      ]
+     },
+     "execution_count": 44,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "def calcu1(a,b): #usando diccionario\n",
+    "    suma=a+b\n",
+    "    resta=a-b\n",
+    "    multi=a*b\n",
+    "    div=a/b\n",
+    "    e=a**b\n",
+    "    return {\"Suma\":suma,\"Resta\":resta,\"Multiplicación\":multi,\"División\":div,\"Exponente\":e}\n",
+    "calcu1(2,1)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 45,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/html": [
+       "<div>\n",
+       "<style scoped>\n",
+       "    .dataframe tbody tr th:only-of-type {\n",
+       "        vertical-align: middle;\n",
+       "    }\n",
+       "\n",
+       "    .dataframe tbody tr th {\n",
+       "        vertical-align: top;\n",
+       "    }\n",
+       "\n",
+       "    .dataframe thead th {\n",
+       "        text-align: right;\n",
+       "    }\n",
+       "</style>\n",
+       "<table border=\"1\" class=\"dataframe\">\n",
+       "  <thead>\n",
+       "    <tr style=\"text-align: right;\">\n",
+       "      <th></th>\n",
+       "      <th>Resultados</th>\n",
+       "    </tr>\n",
+       "  </thead>\n",
+       "  <tbody>\n",
+       "    <tr>\n",
+       "      <th>Suma</th>\n",
+       "      <td>57</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>Resta</th>\n",
+       "      <td>-1</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>Multiplicación</th>\n",
+       "      <td>812</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>División</th>\n",
+       "      <td>0.965517</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>Exponente</th>\n",
+       "      <td>928074647171094496152036391094208962756608</td>\n",
+       "    </tr>\n",
+       "  </tbody>\n",
+       "</table>\n",
+       "</div>"
+      ],
+      "text/plain": [
+       "                                                Resultados\n",
+       "Suma                                                    57\n",
+       "Resta                                                   -1\n",
+       "Multiplicación                                         812\n",
+       "División                                          0.965517\n",
+       "Exponente       928074647171094496152036391094208962756608"
+      ]
+     },
+     "execution_count": 45,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "import pandas as pd\n",
+    "def calcu2(a,b): #usando dataframe\n",
+    "    suma=a+b\n",
+    "    resta=a-b\n",
+    "    multi=a*b\n",
+    "    div=a/b\n",
+    "    e=a**b\n",
+    "    return pd.DataFrame([suma,resta,multi,div,e],index=[\"Suma\",\"Resta\",\"Multiplicación\",\"División\",\"Exponente\"],columns=[\"Resultados\"])\n",
+    "calcu2(28,29)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "Ejercicios con estructuras básicas de python."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "Tuplas"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "Crear una variable flotante, integer, boleana y compleja e imprimir el tipo de variable que es."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 11,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "flot=4.789\n",
+    "inte=59\n",
+    "bol=True\n",
+    "comp=4+3j"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 12,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "<class 'float'>\n",
+      "<class 'int'>\n",
+      "<class 'bool'>\n",
+      "<class 'complex'>\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(type(flot))\n",
+    "print(type(inte))\n",
+    "print(type(bol))\n",
+    "print(type(comp))"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "Crear una tupla con valores enteros imprimir el primer y ultimo valor."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 46,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Primer valor:  2\n",
+      "Último valor:  78\n"
+     ]
+    }
+   ],
+   "source": [
+    "tupla=(2,56,7,65,98,23,12,87,9,78)\n",
+    "\n",
+    "print(\"Primer valor: \",tupla[0])\n",
+    "print(\"Último valor: \",tupla[-1])"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "Añadir 3 valores de string a la tupla."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 47,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "(2, 56, 7, 65, 98, 23, 12, 87, 9, 78, 'Lampara', 'Led', 'Costo')"
+      ]
+     },
+     "execution_count": 47,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "tupla+(\"Lampara\",\"Led\",\"Costo\")"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "Verificar si una variable existe dentro de la tupla."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 15,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "True"
+      ]
+     },
+     "execution_count": 15,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "98 in tupla"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 48,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "False"
+      ]
+     },
+     "execution_count": 48,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "\"valor\" in tupla"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "Listas"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "Crear una lista con 40 elementos aleatorios enteros."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 17,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "[30,\n",
+       " 89,\n",
+       " 75,\n",
+       " 68,\n",
+       " 30,\n",
+       " 58,\n",
+       " 56,\n",
+       " 43,\n",
+       " 47,\n",
+       " 5,\n",
+       " 95,\n",
+       " 73,\n",
+       " 60,\n",
+       " 10,\n",
+       " 92,\n",
+       " 29,\n",
+       " 48,\n",
+       " 77,\n",
+       " 38,\n",
+       " 14,\n",
+       " 5,\n",
+       " 69,\n",
+       " 73,\n",
+       " 94,\n",
+       " 34,\n",
+       " 52,\n",
+       " 27,\n",
+       " 23,\n",
+       " 75,\n",
+       " 7,\n",
+       " 22,\n",
+       " 84,\n",
+       " 11,\n",
+       " 58,\n",
+       " 27,\n",
+       " 87,\n",
+       " 91,\n",
+       " 61,\n",
+       " 39,\n",
+       " 92]"
+      ]
+     },
+     "execution_count": 17,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "import random as r\n",
+    "lista=[r.randint(1, 100) for i in range(40)]\n",
+    "lista"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "Con una funcion (def) crear dos listas nuevas a partir de la lista creada por numeros aleatorios, en la cual en una esten los elementos pares, y en la otra los elementos impares."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 49,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "def par_imp(lista):\n",
+    "    par=[]\n",
+    "    impar=[]\n",
+    "    for i in range(len(lista)):\n",
+    "        if lista[i]%2==0:\n",
+    "            par.append(lista[i])\n",
+    "        else:\n",
+    "            impar.append(lista[i])\n",
+    "    return par,impar"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 50,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Números pares:  [6, 12, 18, 24, 30]\n",
+      "Números impares:  [3, 9, 15, 21, 27]\n"
+     ]
+    }
+   ],
+   "source": [
+    "par,impar=par_imp(lista)\n",
+    "print(\"Números pares: \",par)\n",
+    "print(\"Números impares: \",impar)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "Crear dos variables con la longitud de ambas listas nuevas e imprimir las variables."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 51,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Cantidad de números pares:  5\n",
+      "Cantidad de números impares:  5\n"
+     ]
+    }
+   ],
+   "source": [
+    "p=len(par)\n",
+    "i=len(impar)\n",
+    "print(\"Cantidad de números pares: \",p)\n",
+    "print(\"Cantidad de números impares: \",i)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "Ordenar los elementos de la lista par de mayor a menor, y los de la lista impar de menor a mayor."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 52,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "[30, 24, 18, 12, 6]"
+      ]
+     },
+     "execution_count": 52,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "par.sort(reverse=True)\n",
+    "par"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 22,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "[5,\n",
+       " 5,\n",
+       " 7,\n",
+       " 11,\n",
+       " 23,\n",
+       " 27,\n",
+       " 27,\n",
+       " 29,\n",
+       " 39,\n",
+       " 43,\n",
+       " 47,\n",
+       " 61,\n",
+       " 69,\n",
+       " 73,\n",
+       " 73,\n",
+       " 75,\n",
+       " 75,\n",
+       " 77,\n",
+       " 87,\n",
+       " 89,\n",
+       " 91,\n",
+       " 95]"
+      ]
+     },
+     "execution_count": 22,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "impar.sort()\n",
+    "impar"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "Utilizar al menos cuatro de las funciones de listas en python en la lista original de 40 elementos."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 53,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "[101, 3, 6, 9, 12, 15, 18, 21, 24, 27, 30]"
+      ]
+     },
+     "execution_count": 53,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "lista.insert(0,101)\n",
+    "lista"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 25,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "[101,\n",
+       " 30,\n",
+       " 89,\n",
+       " 75,\n",
+       " 68,\n",
+       " 30,\n",
+       " 58,\n",
+       " 56,\n",
+       " 43,\n",
+       " 47,\n",
+       " 5,\n",
+       " 95,\n",
+       " 73,\n",
+       " 60,\n",
+       " 10,\n",
+       " 92,\n",
+       " 29,\n",
+       " 48,\n",
+       " 77,\n",
+       " 38,\n",
+       " 14,\n",
+       " 5,\n",
+       " 69,\n",
+       " 73,\n",
+       " 94,\n",
+       " 34,\n",
+       " 52,\n",
+       " 27,\n",
+       " 23,\n",
+       " 75,\n",
+       " 7,\n",
+       " 22,\n",
+       " 84,\n",
+       " 11,\n",
+       " 58,\n",
+       " 27,\n",
+       " 87,\n",
+       " 91,\n",
+       " 61,\n",
+       " 39,\n",
+       " 92,\n",
+       " 40,\n",
+       " 88,\n",
+       " 12]"
+      ]
+     },
+     "execution_count": 25,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "lista2=[40,88,12]\n",
+    "lista.extend(lista2)\n",
+    "lista"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 54,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "[30, 27, 24, 21, 18, 15, 12, 9, 6, 3, 101]"
+      ]
+     },
+     "execution_count": 54,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "lista.reverse()\n",
+    "lista"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 55,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "5"
+      ]
+     },
+     "execution_count": 55,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "lista.index(15)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "Diccionarios"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "Crear un diccionario de 6 personas que conozcas con su primer nombre y su edad."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 56,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "{'Adriel': 50, 'ahiram': 1, 'isai': 7, 'gladys': 23, 'kely': 45, 'Luis': 21}"
+      ]
+     },
+     "execution_count": 56,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "dic={\"Adriel\":50,\"ahiram\":1,\"isai\":7,\"gladys\":23,\"kely\":45,\"Luis\":21}\n",
+    "dic"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "Crear una lista con los valores de la edad y reacomodar la lista de menor a mayor valor."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 57,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "[1, 7, 21, 23, 45, 50]"
+      ]
+     },
+     "execution_count": 57,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "edad=[i for i in dic.values()]\n",
+    "edad.sort()\n",
+    "edad"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "Usando el diccionario y un loop, imprimir solo los nombres."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 58,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Adriel\n",
+      "ahiram\n",
+      "isai\n",
+      "gladys\n",
+      "kely\n",
+      "Luis\n"
+     ]
+    }
+   ],
+   "source": [
+    "for i in dic:\n",
+    "    print(i)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "Añadir dos personas nuevas a tu diccionario, incluyendo edad."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 59,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "{'Adriel': 50,\n",
+       " 'ahiram': 1,\n",
+       " 'isai': 7,\n",
+       " 'gladys': 23,\n",
+       " 'kely': 45,\n",
+       " 'Luis': 21,\n",
+       " 'Anahi': 15,\n",
+       " 'Dulce': 35}"
+      ]
+     },
+     "execution_count": 59,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "dic[\"Anahi\"]=15\n",
+    "dic[\"Dulce\"]=35\n",
+    "dic"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "Sets"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "Crea un set con 100 numeros aleatorios enteros del 1 al 25."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 60,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "{1,\n",
+       " 2,\n",
+       " 3,\n",
+       " 4,\n",
+       " 5,\n",
+       " 6,\n",
+       " 7,\n",
+       " 8,\n",
+       " 9,\n",
+       " 10,\n",
+       " 11,\n",
+       " 12,\n",
+       " 13,\n",
+       " 14,\n",
+       " 15,\n",
+       " 16,\n",
+       " 17,\n",
+       " 18,\n",
+       " 19,\n",
+       " 20,\n",
+       " 21,\n",
+       " 22,\n",
+       " 23,\n",
+       " 24,\n",
+       " 25}"
+      ]
+     },
+     "execution_count": 60,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "s={r.randint(1,25) for i in range(100)}\n",
+    "s"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "Comprueba la longitud de tu set."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 61,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "25"
+      ]
+     },
+     "execution_count": 61,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "len(s)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "Crea una lista de 5 numeros aleatorios del 1 al 10 y comprueba si cada valor aparece en el set inicial."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 62,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "[5, 1, 10, 2, 10]"
+      ]
+     },
+     "execution_count": 62,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "l=[r.randint(1,10) for i in range(5)]\n",
+    "l"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 63,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "¿ 5  está en el set?  True\n",
+      "¿ 1  está en el set?  True\n",
+      "¿ 10  está en el set?  True\n",
+      "¿ 2  está en el set?  True\n",
+      "¿ 10  está en el set?  True\n"
+     ]
+    }
+   ],
+   "source": [
+    "for i in range(len(l)):\n",
+    "    print(\"¿\",l[i],\" está en el set? \",l[i] in s)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.8.3"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 4
+}
