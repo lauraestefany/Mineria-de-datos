@@ -36,9 +36,8 @@ Laura Estefany Rodriguez de los Reyes
 
 [Avance I Proyecto Integrador](https://github.com/lauraestefany/Mineria-de-datos/blob/master/Avance1-PIA_13_003.pdf)
 
-[Limpieza de datos]
+[Limpieza de datos y Visualizacion](https://github.com/lauraestefany/Mineria-de-datos/blob/master/Proyecto%20(1).ipynb)
 
-[Visualización]
 
 ## Fase 3
 [Avance II Proyecto Integrador]
