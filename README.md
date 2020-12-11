@@ -40,6 +40,6 @@ Laura Estefany Rodriguez de los Reyes
 
 
 ## Fase 3
-[Avance II Proyecto Integrador]
+[Avance II Proyecto Integrador](https://github.com/lauraestefany/Mineria-de-datos/blob/master/AvancePIA_II_003_13)
 
 [Póster Final]
