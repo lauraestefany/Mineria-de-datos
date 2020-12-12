@@ -12,18 +12,6 @@ Grupo 003 Equipo 5
 
 
 ### Equipo
-#### Integrantes:
-
-Isidro Garza Villarreal
-
-Mauricio Enrique Espinosa Martínez
-
-Eliezer Gamaliel Castillo Alcantar
-
-José Luis Buendía Meza
-
-Laura Estefany Rodriguez de los Reyes
-
 
 [Presentación técnicas de Minería - Predicción](https://github.com/lauraestefany/Mineria-de-datos/blob/master/Presentaci%C3%B3n_Predicci%C3%B3n_5.pdf)
 
@@ -43,3 +31,8 @@ Laura Estefany Rodriguez de los Reyes
 [Avance II Proyecto Integrador](https://github.com/lauraestefany/Mineria-de-datos/blob/master/AvancePIA_II_003_13)
 
 [Póster Final]
+
+
+## Examen Extraordinario
+
+[Ejercicios 1 a 5](https://github.com/lauraestefany/Mineria-de-datos/blob/master/EE_Ejercicio1a5_1588292.ipynb)
