@@ -35,4 +35,4 @@ Grupo 003 Equipo 5
 
 ## Examen Extraordinario
 
-[Ejercicios 1 a 5](https://github.com/lauraestefany/Mineria-de-datos/blob/master/EE_Ejercicio1a5_1588292.ipynb)
+[Ejercicios 1 a 7](https://github.com/lauraestefany/Mineria-de-datos/blob/master/EE_Ejercicio1a5_1588292.ipynb)
