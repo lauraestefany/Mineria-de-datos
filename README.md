@@ -37,4 +37,4 @@ Grupo 003 Equipo 5
 
 [Parte 1](https://github.com/lauraestefany/Mineria-de-datos/blob/master/EE_Ejercicio1a7_1588292.ipynb)
 
-[Parte 2]()
+[Parte 2](https://github.com/lauraestefany/Mineria-de-datos/blob/master/EEParte2_1588292.ipynb)
