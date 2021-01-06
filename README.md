@@ -35,6 +35,6 @@ Grupo 003 Equipo 5
 
 ## Examen Extraordinario
 
-[Parte 1](https://github.com/lauraestefany/Mineria-de-datos/blob/master/EE_Ejercicio1a7_1588292.ipynb)
+[Extraordinario](https://github.com/lauraestefany/Mineria-de-datos/blob/master/Extraordinario_Rodr%C3%ADguezdelosReyes_LauraEstefany_003.ipynb)
 
-[Parte 2](https://github.com/lauraestefany/Mineria-de-datos/blob/master/EEParte2_1588292.ipynb)
+
